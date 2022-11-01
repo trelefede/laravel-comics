@@ -30,6 +30,12 @@
             padding: 20px 10px;
             text-align: left;
 
+            img {
+                height: 170px;
+                object-fit: cover;
+                object-position: top;
+            }
+
             h3 {
                 padding-top: 10px;
                 line-height: 0.7;

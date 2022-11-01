@@ -109,6 +109,14 @@ nav input {
   text-align: left;
 }
 
+.comics-section .comics .card img {
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 .comics-section .comics .card h3 {
   padding-top: 10px;
   line-height: 0.7;
