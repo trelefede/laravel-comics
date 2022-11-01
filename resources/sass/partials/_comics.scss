@@ -1,0 +1,28 @@
+.comics-section {
+    background-color: #1c1c1c;
+
+    .comics {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .card {
+            width: calc(100% / 6);
+            padding: 20px 10px;
+            text-align: left;
+
+            h3 {
+                padding-top: 10px;
+            }
+
+            a {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 0.7rem;
+                font-weight: 500;
+            }
+        }
+
+    }
+}

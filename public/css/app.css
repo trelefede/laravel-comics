@@ -74,6 +74,34 @@ nav input {
   width: 8%;
 }
 
+.comics-section {
+  background-color: #1c1c1c;
+}
+
+.comics-section .comics {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.comics-section .comics .card {
+  width: 16.6666666667%;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+.comics-section .comics .card h3 {
+  padding-top: 10px;
+}
+
+.comics-section .comics .card a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
 footer .footer-top {
   background-image: url("/images/footer-bg.jpg");
 }
