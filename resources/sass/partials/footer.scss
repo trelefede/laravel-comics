@@ -1,0 +1,53 @@
+footer {
+    .footer-top {
+        background-image: url('/images/footer-bg.jpg');
+
+        .container {
+            position: relative;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                transform: translateY(-10%);
+                right: 0;
+                width: 40%;
+            }
+        }
+
+        .links {
+            display: flex;
+            padding: 15px 0 0;
+
+            >div {
+                padding-right: 30px;
+            }
+
+            h5 {
+                color: white;
+                font-size: 1rem;
+                font-weight: 600;
+                padding: 15px 0 5px;
+            }
+
+            a {
+                color: #959595;
+                font-size: 0.7rem;
+            }
+        }
+
+        p {
+            font-size: 0.7rem;
+            color: #959595;
+            padding: 15px 0 30px;
+
+            a {
+                color: #0f74e7;
+            }
+        }
+
+    }
+
+
+}

@@ -19,6 +19,14 @@ img {
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .top-header {
   background-color: #0082f9;
   text-align: right;
@@ -30,7 +38,6 @@ img {
   padding: 0px 5px;
   font-size: 0.7rem;
   font-weight: bold;
-  text-decoration: none;
 }
 
 nav {
@@ -47,7 +54,6 @@ nav img {
 nav ul {
   display: flex;
   align-items: center;
-  list-style-type: none;
 }
 
 nav ul li {
@@ -58,7 +64,6 @@ nav ul a {
   font-size: 0.95rem;
   font-weight: 500;
   color: #393825;
-  text-decoration: none;
 }
 
 nav input {
@@ -67,5 +72,54 @@ nav input {
   font-size: 0.95rem;
   border-bottom: 2px solid #0082f9;
   width: 8%;
+}
+
+footer .footer-top {
+  background-image: url("/images/footer-bg.jpg");
+}
+
+footer .footer-top .container {
+  position: relative;
+  overflow: hidden;
+}
+
+footer .footer-top .container img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: translateY(-10%);
+  right: 0;
+  width: 40%;
+}
+
+footer .footer-top .links {
+  display: flex;
+  padding: 15px 0 0;
+}
+
+footer .footer-top .links > div {
+  padding-right: 30px;
+}
+
+footer .footer-top .links h5 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 0 5px;
+}
+
+footer .footer-top .links a {
+  color: #959595;
+  font-size: 0.7rem;
+}
+
+footer .footer-top p {
+  font-size: 0.7rem;
+  color: #959595;
+  padding: 15px 0 30px;
+}
+
+footer .footer-top p a {
+  color: #0f74e7;
 }
 
