@@ -49,5 +49,41 @@ footer {
 
     }
 
+    .footer-bottom {
+        background-color: #303030;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 0;
+
+            a {
+                font-size: 0.8rem;
+                color: white;
+                padding: 8px;
+                border: 2px solid #0f74e7;
+            }
+
+            .social-links {
+                display: flex;
+                align-items: center;
+                width: 30%;
+
+                img {
+                    width: 8%;
+                    height: 8%;
+                    margin: 0 8px;
+                }
+
+                h5 {
+                    font-size: 1rem;
+                    color: #0f74e7;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
 
 }

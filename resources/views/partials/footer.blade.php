@@ -65,5 +65,23 @@
     </div>
     {{-- end footer-top --}}
 
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="sign-up">
+                <a href="">SIGN-UP NOW</a>
+            </div>
+            <div class="social-links">
+                <div>
+                    <h5>FOLLOW US</h5>
+                </div>
+                <img src=" {{ asset('images/footer-facebook.png') }} " alt="facebook">
+                <img src=" {{ asset('images/footer-twitter.png') }} " alt="twitter">
+                <img src=" {{ asset('images/footer-youtube.png') }} " alt="youtube">
+                <img src=" {{ asset('images/footer-pinterest.png') }} " alt="pinterest">
+                <img src=" {{ asset('images/footer-periscope.png') }} " alt="periscope">
+            </div>
+        </div>
+    </div>
+
 
 </footer>

@@ -179,3 +179,39 @@ footer .footer-top p a {
   color: #0f74e7;
 }
 
+footer .footer-bottom {
+  background-color: #303030;
+}
+
+footer .footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+footer .footer-bottom .container a {
+  font-size: 0.8rem;
+  color: white;
+  padding: 8px;
+  border: 2px solid #0f74e7;
+}
+
+footer .footer-bottom .container .social-links {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+footer .footer-bottom .container .social-links img {
+  width: 8%;
+  height: 8%;
+  margin: 0 8px;
+}
+
+footer .footer-bottom .container .social-links h5 {
+  font-size: 1rem;
+  color: #0f74e7;
+  padding-right: 10px;
+}
+
