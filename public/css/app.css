@@ -74,6 +74,23 @@ nav input {
   width: 8%;
 }
 
+.jumbotron {
+  height: 400px;
+  background-image: url(/images/jumbotron.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron h2 {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  padding: 13px 25px;
+  font-size: 1.2rem;
+  background-color: #0082f9;
+  color: white;
+}
+
 .comics-section {
   background-color: #1c1c1c;
 }
@@ -83,6 +100,7 @@ nav input {
   justify-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 30px 0 20px;
 }
 
 .comics-section .comics .card {
@@ -93,6 +111,7 @@ nav input {
 
 .comics-section .comics .card h3 {
   padding-top: 10px;
+  line-height: 0.7;
 }
 
 .comics-section .comics .card a {
@@ -100,6 +119,7 @@ nav input {
   color: #fff;
   font-size: 0.7rem;
   font-weight: 500;
+  line-height: 0;
 }
 
 footer .footer-top {

@@ -1,6 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+    {{-- jumbotron --}}
+    <div class="jumbotron">
+        <div class="container">
+            <h2>CURRENT SERIES</h2>
+        </div>
+    </div>
+
+    {{-- comics section --}}
     <div class="comics-section">
         <div class="container">
             <div class="comics">
